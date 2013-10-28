@@ -22,93 +22,261 @@ body {
     margin-right: auto;
 }
 
-.cssgridview { 
-    width:100%; 
-    margin:5px 0 10px 0; 
-    border:solid 1px #525252; 
-    border-collapse:collapse; 
-    text-align:center; 
-    font-family: "Comic Sans MS"; 
-    background-color:#F08080
-}
-
-#GridView1 {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#DetailsView1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cssgridview td { 
-    padding:10px; 
-    border:solid 1px #FFFFFF; 
-    color:#FFFFFF; 
-}
-
-.cssgridview th { 
-    padding:10px; 
-    color:#fff; 
-    background:#FFFF99; 
-    border:solid 1px #525252;
-    font-size:0.9em; 
-}  
-
-
-.cssdetailsview .fieldheader { 
-    color:#FFFFFF; 
-    width:150px; 
-    text-align:right;
+body {background-color: tan;
 
 }
-
-.cssdetailsview .command {  
-    background: #424242 url(./css/grd_pgr.png) repeat-x top; 
-    line-height: 20px;
-
+#DetailsView1
+{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#GridView1
+{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-.cssdetailsview .command td { 
-    text-align:center;
-
+.cssgridview {
+       margin:25px 200px 50px 200px;
+      
 }
 
-.cssdetailsview .command a {
-    color:#696969; 
-    background-color:#FFFF99;
-    text-decoration:none; 
-    padding:10px; }
+#tables {
 
-.cssdetailsview .command a:hover {
-    color:Silver; 
-    text-decoration:underline; 
+    background-color: coral;
+
+    color: silver;
 
 }
 
 
-.cssdetailsview { 
-    font-family: "Comic Sans MS"; 
-    background-color:#fff; 
-    margin:5px 0 10px 0; 
-    border:solid 1px #525252; 
-    border-collapse:collapse; 
-    text-align:center; 
+
+
+.cssgridview {
+
+            width:100%; 
+
+              background-color:#F08080; 
+
+              border:solid 6px white;
+
+}
+
+.cssgridview td {
+
+                padding:10px; 
+
+                 border:solid 1px; 
+
+                 color:#FFFFFF;
+
+}
+
+.cssgridview th{
+
+                padding:4px 2px; 
+
+                border:solid 1px; 
+
+                color:#F08080 ;
+
+                background-color:#FFFF99;
+
+}
+
+.cssgridview th a {
+
+                color: silver;
+
+                text-decoration: none;
+
+}
+
+.cssgridview .header td{
+
+                width:150px; 
+
+                text-align:center; 
+
+                color:#FFFF99
+
+}
+
+
+
+
+
+
+
+
+
+
+.cssdetailsview {
+
+            width:100%; 
+
+              background-color:#F08080; 
+
+              border:solid 6px white;
+
+}
+
+.cssdetailsview td {
+
+                padding:10px; 
+
+                 border:solid 1px; 
+
+                 color:#FFFFFF;
+
+}
+
+.cssdetailsview th{
+
+                padding:4px 2px; 
+
+                border:solid 1px; 
+
+                color:#F08080 ;
+
+                background-color:#FFFF99;
+
+}
+
+.cssdetailsview th a {
+
+                color: silver;
+
+                text-decoration: none;
+
+}
+
+    .cssdetailsview .header td {
+        width: 150px;
+        text-align: center;
+        
+        color: #696969;
+        background-color: #FFFF99;
     }
+#tables {
 
-.cssdetailsview td { 
-    padding:10px; 
-    border:solid 1px #FFFFFF; 
-    color:#FFFFFF; 
-    text-align:left;
-    background:#F08080;
+    background-color: coral;
+
+    color: silver;
+
 }
 
-.cssdetailsview .header td { 
-    text-align:center; 
-    padding:4px 2px; 
-    color:#696969; 
-    background:#FFFF99 url(./css/grd_head.png) repeat-x top; 
-    border-left:solid 1px #525252; }
+
+
+/* CSS to format a gridview -- START*/
+
+.cssgridview {
+
+            width:100%; 
+
+              background-color:#F08080; 
+
+              border:solid 6px white;
+
+}
+
+.cssgridview td {
+
+                padding:10px; 
+
+                 border:solid 1px; 
+
+                 color:#FFFFFF;
+
+}
+
+.cssgridview th{
+
+                padding:4px 2px; 
+
+                border:solid 1px; 
+
+                color:#696969 ;
+
+                background-color:#FFFF99;
+
+}
+
+.cssgridview th a {
+
+                color: silver;
+
+                text-decoration: none;
+
+}
+
+.cssgridview .header td{
+
+                width:150px; 
+
+                text-align:center; 
+
+                color:#FFFF99
+
+}
+
+/* CSS to format a gridview -- END*/
+
+
+/* CSS to format a detailsview --START */
+
+.cssdetailsview {
+
+            width:100%; 
+
+              background-color:#F08080; 
+
+              border:solid 6px white;
+
+}
+
+.cssdetailsview td {
+
+                padding:10px; 
+
+                 border:solid 1px; 
+
+                 color:#FFFFFF;
+
+}
+
+.cssdetailsview th{
+
+                padding:4px 2px; 
+
+                border:solid 1px; 
+
+                color:#F08080 ;
+
+                background-color:#FFFF99;
+
+}
+
+.cssdetailsview th a {
+
+                color: silver;
+
+                text-decoration: none;
+
+}
+
+.cssdetailsview .header td{
+
+                width:150px; 
+
+                text-align:center; 
+
+                color:#FFFF99
+
+/* CSS to format a detailsview --END */;
+
+/* CSS to format a detailsview --END */;
+
+    
